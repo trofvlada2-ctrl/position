@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 200vh;
+  background: #f4f4f9;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.section {
+  margin: 20px;
+  padding: 15px;
+  background: white;
+  border: 2px dashed #3498db;
+}
+
+.title {
+  position: sticky;
+  background: #e74c3c;
+  color: white;
+  padding: 10px;
+  margin: 0;
+
+  top: 48px;
+}
+
+.content {
+  height: 500px;
+  background: #ecf0f1;
+  margin-top: 15px;
+  padding: 15px;
+}
