@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!doctype html>
+    <html lang="uk">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Stacking Context Bug</title>
+
+        <link rel="stylesheet" href="style4.css" />
+      </head>
+      <body>
+        <div class="box-a">
+          <div class="child-a">Дитина A (z-index: 9999)</div>
+        </div>
+
+        <div class="box-b">
+          <div class="child-b">Я Дитина B (z-index: 1)</div>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
